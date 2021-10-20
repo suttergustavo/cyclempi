@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# Learning multiplane images from single views with self-supervision
+## Gustavo Sutter P. Carvalho, Diogo C. Luvizon, Antonio Joia Neto, Andre G. C. Pacheco, Otavio A. B. Penatti
 
-You can use the [editor on GitHub](https://github.com/suttergustavo/cyclempi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Abstract
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suttergustavo/cyclempi/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Generating static novel views from an already captured image is a hard task in computer vision and graphics, in particular when the single input image has dynamic parts such as persons or moving objects. In this paper, we tackle this problem by proposing a new framework, called CycleMPI, that is capable of learning a multiplane image representation from single images through a cyclic training strategy for self-supervision. Our framework does not require stereo data for training, therefore it can be trained with massive visual data from the Internet, resulting in a better generalization capability even for very challenging cases. Although our method does not require stereo data for supervision, it reaches results on stereo datasets comparable to the state of the art in a zero-shot scenario. We evaluated our method on RealEstate10K and Mannequin Challenge datasets for view synthesis and presented qualitative results on Places II dataset.
